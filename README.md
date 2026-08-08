@@ -70,6 +70,7 @@ Cockpit plugin for per-folder daily backups with restore. Local disk or Amazon S
 tiered grandfather-father-son retention, per-folder logs and live progress.
 
 - Repository: https://github.com/mrlechuck/CockpitBackup
+- Documentation: [CockpitBackup README](https://github.com/mrlechuck/CockpitBackup/blob/main/README.md)
 - Latest release: https://github.com/mrlechuck/CockpitBackup/releases/latest
 - Included at: `CockpitBackup/` (submodule)
 
@@ -79,4 +80,5 @@ Custom look and feel for Cockpit — colors, logo and login page, installed into
 `/usr/share/cockpit/branding/`.
 
 - Repository: https://github.com/mrlechuck/CockpitBranding
+- Documentation: [CockpitBranding README](https://github.com/mrlechuck/CockpitBranding/blob/main/README.md)
 - Included at: `CockpitBranding/` (submodule)
