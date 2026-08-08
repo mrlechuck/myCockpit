@@ -6,6 +6,47 @@ Umbrella repository for my [Cockpit](https://cockpit-project.org/) plugins and
 tools. Each project keeps its own repository, releases and CI, and is included
 here as a **git submodule** pinned to a released version.
 
+## Server setup
+
+These projects run **inside Cockpit** on the Linux server. Install Cockpit first
+(Debian/Ubuntu/Raspberry Pi OS shown; on Fedora/RHEL use `dnf`):
+
+```bash
+sudo apt update
+sudo apt install cockpit
+```
+
+Cockpit is then reachable at `https://<server-ip>:9090`.
+
+### Recommended components
+
+```bash
+sudo apt install cockpit-bridge cockpit-files awscli
+```
+
+- **cockpit-bridge** — the backend channel Cockpit plugins talk through (usually
+  pulled in by `cockpit`, listed here to be sure).
+- **cockpit-files** — file browser page, handy alongside the backup plugin.
+- **awscli** — required by [CockpitBackup](https://github.com/mrlechuck/CockpitBackup)
+  for S3 remote storage.
+
+### Optional: Docker manager plugin
+
+A third-party plugin to manage Docker/containers from Cockpit
+([chrisjbawden/cockpit-dockermanager](https://github.com/chrisjbawden/cockpit-dockermanager)):
+
+```bash
+# 1. add the repo (without this, apt can't find it)
+echo "deb [trusted=yes arch=all] https://chrisjbawden.github.io/cockpit-dockermanager stable main" \
+  | sudo tee /etc/apt/sources.list.d/cockpit-dockermanager.list
+
+# 2. refresh the package index
+sudo apt update
+
+# 3. install
+sudo apt install dockermanager
+```
+
 ## Getting started
 
 Clone with submodules in one shot:
