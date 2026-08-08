@@ -31,3 +31,11 @@ tiered grandfather-father-son retention, per-folder logs and live progress.
 - Repository: https://github.com/mrlechuck/CockpitBackup
 - Latest release: https://github.com/mrlechuck/CockpitBackup/releases/latest
 - Included at: `CockpitBackup/` (submodule)
+
+### [CockpitBranding](https://github.com/mrlechuck/CockpitBranding)
+
+Custom look and feel for Cockpit — colors, logo and login page, installed into
+`/usr/share/cockpit/branding/`.
+
+- Repository: https://github.com/mrlechuck/CockpitBranding
+- Included at: `CockpitBranding/` (submodule)

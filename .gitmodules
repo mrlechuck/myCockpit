@@ -1,3 +1,6 @@
 [submodule "CockpitBackup"]
 	path = CockpitBackup
 	url = git@github.com:mrlechuck/CockpitBackup.git
+[submodule "CockpitBranding"]
+	path = CockpitBranding
+	url = git@github.com:mrlechuck/CockpitBranding.git
