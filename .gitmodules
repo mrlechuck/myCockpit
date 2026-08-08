@@ -1,0 +1,3 @@
+[submodule "CockpitBackup"]
+	path = CockpitBackup
+	url = git@github.com:mrlechuck/CockpitBackup.git

@@ -2,9 +2,23 @@
 
 # myCockpit
 
-Umbrella index for my [Cockpit](https://cockpit-project.org/) plugins and tools.
-Each project lives in its own repository with its own releases; this repo is just
-the map.
+Umbrella repository for my [Cockpit](https://cockpit-project.org/) plugins and
+tools. Each project keeps its own repository, releases and CI, and is included
+here as a **git submodule** pinned to a released version.
+
+## Getting started
+
+Clone with submodules in one shot:
+
+```bash
+git clone --recurse-submodules git@github.com:mrlechuck/myCockpit.git
+```
+
+Already cloned without them? Pull the submodules in:
+
+```bash
+git submodule update --init --recursive
+```
 
 ## Projects
 
@@ -16,3 +30,4 @@ tiered grandfather-father-son retention, per-folder logs and live progress.
 
 - Repository: https://github.com/mrlechuck/CockpitBackup
 - Latest release: https://github.com/mrlechuck/CockpitBackup/releases/latest
+- Included at: `CockpitBackup/` (submodule)
