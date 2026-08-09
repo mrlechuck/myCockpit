@@ -1,6 +1,12 @@
-<p align="center"><img src="https://raw.githubusercontent.com/mrlechuck/CockpitBackup/main/plugin/icon.svg" width="90" alt="myCockpit"></p>
+<p align="center">
+  <img src="icon.svg" width="88" alt="myCockpit">
+</p>
 
-# myCockpit
+<h1 align="center">myCockpit</h1>
+
+<p align="center">
+  Umbrella repo for my <a href="https://cockpit-project.org/">Cockpit</a> plugins &amp; tools.
+</p>
 
 Umbrella repository for my [Cockpit](https://cockpit-project.org/) plugins and
 tools. Each project keeps its own repository, releases and CI, and is included
