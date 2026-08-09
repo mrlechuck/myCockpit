@@ -71,7 +71,6 @@ tiered grandfather-father-son retention, per-folder logs and live progress.
 
 - Repository: https://github.com/mrlechuck/CockpitBackup
 - Documentation: [CockpitBackup README](https://github.com/mrlechuck/CockpitBackup/blob/main/README.md)
-- Latest release: https://github.com/mrlechuck/CockpitBackup/releases/latest
 - Included at: `CockpitBackup/` (submodule)
 
 ### [CockpitBranding](https://github.com/mrlechuck/CockpitBranding)
