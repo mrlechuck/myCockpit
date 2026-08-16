@@ -27,7 +27,7 @@ Cockpit is then reachable at `https://<server-ip>:9090`.
 ### Recommended components
 
 ```bash
-sudo apt install cockpit-bridge cockpit-files awscli
+sudo apt install cockpit-bridge cockpit-files awscli pigz
 ```
 
 - **cockpit-bridge** — the backend channel Cockpit plugins talk through (usually
@@ -35,6 +35,8 @@ sudo apt install cockpit-bridge cockpit-files awscli
 - **cockpit-files** — file browser page, handy alongside the backup plugin.
 - **awscli** — required by [CockpitBackup](https://github.com/mrlechuck/CockpitBackup)
   for S3 remote storage.
+- **pigz** — optional: parallel gzip, picked up automatically by CockpitBackup —
+  backups, consolidation and restores get ~4× faster on multi-core boards.
 
 ### Optional: Docker manager plugin
 
